@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.fare-evasion-detection]
+path = 'contracts/fare-evasion-detection.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.reduced-fare-eligibility]
 path = 'contracts/reduced-fare-eligibility.clar'
 clarity_version = 2
